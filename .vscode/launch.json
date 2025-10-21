@@ -5,8 +5,8 @@
             "name": "STLink@pyOCD (launch)",
             "type": "gdbtarget",
             "request": "launch",
-            "cwd": "${workspaceFolder}/Programs/Taschenrechner",
-            "program": "out/Taschenrechner/ITSboard/Debug/Taschenrechner.axf",
+            "cwd": "${workspaceFolder}/Programs/OneWireBus",
+            "program": "out/OneWireBus/ITSboard/Debug/OneWireBus.axf",
             "gdb": "arm-none-eabi-gdb",
             "preLaunchTask": "CMSIS Load",
             "initCommands": [
@@ -43,8 +43,8 @@
             "name": "STLink@pyOCD (attach)",
             "type": "gdbtarget",
             "request": "attach",
-            "cwd": "${workspaceFolder}/Programs/Taschenrechner",
-            "program": "out/Taschenrechner/ITSboard/Debug/Taschenrechner.axf",
+            "cwd": "${workspaceFolder}/Programs/OneWireBus",
+            "program": "out/OneWireBus/ITSboard/Debug/OneWireBus.axf",
             "gdb": "arm-none-eabi-gdb",
             "initCommands": [
                 ""
